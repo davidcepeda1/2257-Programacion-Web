@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(22, 175, 124);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h1{
+    color: rgb(209, 194, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+p {
+    color: rgb(237, 228, 228);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+strong{
+    color : rgb(214, 31, 31);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+ul{
+    font-size: 25px;
+}
+dt{
+    color: yellowgreen;
+}
