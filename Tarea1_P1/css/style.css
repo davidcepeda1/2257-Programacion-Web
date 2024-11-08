@@ -4,8 +4,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
-h1{
-    color: rgb(209, 194, 26);
+.juego{
+    color: rgb(17, 146, 182);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
 }
@@ -24,4 +24,18 @@ ul{
 }
 dt{
     color: yellowgreen;
+}
+.pie{
+    text-align: center;
+}
+#info{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.container{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }

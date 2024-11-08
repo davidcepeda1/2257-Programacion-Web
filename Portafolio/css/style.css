@@ -1,0 +1,30 @@
+.titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.subtitulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.info{
+    text-align: center;
+    font-family:px 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.pie{
+    text-align: center;
+    background-color: yellow;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+#lista{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.img{
+    border-radius: 50px;
+}
