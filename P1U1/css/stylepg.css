@@ -1,0 +1,40 @@
+body{
+    background: url(/image/pepe.jpg);
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    align-content: center;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+input[type="text"]{
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+}
+input{
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+    padding: 15px;
+}
+input[type="submit"]{
+    background: rgb(220,32,32);
+background: linear-gradient(90deg, rgba(220,32,32,1) 0%, rgba(163,69,31,1) 54%, rgba(202,197,83,1) 100%);
+    width: 100px;
+    color: white;
+}
+
