@@ -1,0 +1,58 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(155,31,163,1) 35%, rgba(0,212,255,1) 100%);
+}
+input[type="text"]{
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 0px;
+    color: aquamarine;
+}
+input[type="submit"]{
+    background: rgb(73, 28, 28);
+    width: 100px;
+    color: white;
+}
+input::placeholder{
+    color: rgb(43, 211, 37);
+}
+input{
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+      font-size: 20px;
+    }
+  }
+
+  
+  @media all and (max-width: 800px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  
+  @media screen and (min-width: 1024px) {
+    nav {
+      display: flex;
+    }
+  }
+
+  
+  @media print {
+    header, footer {
+      display: none;
+    }
+  }
+
+  
+  @media speech {
+    p {
+      voice-volume: soft;
+    }
+  }
+  

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100%;
+    background-color: white;
+    margin: 0;
+}
+.card{
+    box-shadow: black 0px 0px 50px;
+    margin: auto;
+    margin-top: 40px;
+    height: 550px;
+    background-color: rgb(194, 188, 188);
+    width: 350px;
+}
+.card-header{
+    height: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imagen1{
+    height: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.price{
+    font-size: 24px;
+    font-weight: bold;
+    color: aquamarine;
+}
+h4{
+    color: gray;
+}
+.card-initial-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.card-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.size{
+    margin-top: 0px;
+}
+.colors{
+    margin-top: 0px;
+}
+.rojo{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    margin: 0 5px;
+    background-color: red;
+    border-radius: 50%;
+    color: rgb(234, 73, 73);
+}
+.azul{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 50%;
+    color: blue;
+}
+.blanco{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    color: white;
+}
+.verde{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 50%;
+    color: green;
+}
+body:has(#titulo:hover){
+    background-color: black;
+}
+.card:has(#contenido:hover){
+    background-color: black;
+    color: gray;
+}
+
+.card:has(#titulo:hover) .imagen1{
+    transform: scaleX(-1);
+}

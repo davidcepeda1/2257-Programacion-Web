@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pantalla {
+    background-color: black;
+    position: relative;
+    height: 500px;
+    width: 700px;
+    overflow: hidden;
+}
+
+.circulo {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+    animation: moverPelota 2s linear infinite;
+}
+
+.barra {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 180px;
+    background-color: green;
+    border-radius: 15%;
+    animation: moverBarra 4s linear infinite;
+}
+
+@keyframes moverPelota {
+    0% {
+        transform: translateX(50px);
+    }
+    50% {
+        transform: translateX(300px) translateY(440px);
+    }
+    100% {
+        transform: translateX(600px) translateY(10px);
+    }
+}
+
+@keyframes moverBarra {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(530px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

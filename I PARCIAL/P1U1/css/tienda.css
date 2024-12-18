@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(107, 111, 108);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.cabezera {
+    background-color: rgb(16, 110, 33);
+    padding: 10px 0;
+    position: sticky;
+}
+
+.titulo {
+    margin: 0;
+    color: white;
+}
+
+.barra {
+    background-color: rgb(16, 110, 33);
+    padding: 10px 0;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.panel {
+    display: left;
+    flex-direction: column;
+    background-color: rgb(53, 49, 49);
+    padding: 20px;
+    border-radius: 0px;
+    width: 20%;
+    color: white;
+    text-align: center;
+}
+.chatbot{
+    display: block;
+    flex-direction: row;
+    position: relative;
+}
+.pep {
+    flex-direction: column;
+    display: right;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    margin: 10px;
+}
+
+
+.secciones {
+    display: flex;
+    flex-direction: column; 
+    width: 80%; 
+    padding: 20px;
+}
+
+.btn-categoria {
+    display: block;
+    width: 50%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-tablas{
+    display: block;
+    width: 30%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-categoria:hover {
+    background-color: darkgreen;
+}
+
+.pie {
+    background-color: rgb(27, 27, 23) ;
+    padding: 10px;
+    text-align: center;
+}
+.textopie{ 
+    color: white;
+}
+.chatbot {
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    right: 0%;
+    top: 30%;
+    left: 70%;
+    padding: 10px;
+    height: 360px;
+    border:solid black;
+}
+
+.chatbot-header {
+    background-color: green;
+    margin-top: 30px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.chatbot-body {
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatbot-body textarea {
+    flex-grow: 1;
+    resize: none;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+}
+
+.chatbot-body button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.panel2{
+    flex-direction: column;
+    width: 40%;
+}
+.panel3{
+    flex-direction: column;
+    width: 40%;
+    right: 40%;
+}
+.chatbot-text{
+    color: black;
+}
+.principal{
+    position: sticky;
+    right: 0%;
+    top: 0%;
+}
