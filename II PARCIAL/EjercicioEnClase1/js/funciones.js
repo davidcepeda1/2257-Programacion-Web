@@ -100,7 +100,7 @@ Si algun parametro no es un numero, lanza un error con un mensaje descriptivo
 const validarNumeros = (...valores) => {
     for (let valor of valores) {
         if (typeof valor !== 'number') {
-            console.log(`El valor "${valor}" no es un número válido.`);
+            console.log("El valor " +valor + " no es un número válido.");
             return false;
         }
     }
@@ -111,25 +111,25 @@ const validarNumeros = (...valores) => {
     try {
         if (validarNumeros(8, 9, "10")) {
             const promedio = calcularPromedio(8, 9, "10");
-            console.log(`El promedio es: ${promedio}`);
+            console.log("El promedio es: " + promedio);
         }
 
         if (validarNumeros(8, 9, 10)) {
             const promedio = calcularPromedio(8, 9, 10);
-            console.log(`El promedio es: ${promedio}`);
+            console.log("El promedio es: " + promedio);
         }
 
         if (validarNumeros(15, 10)) {
             const mayor = determinarMayor(15, 10);
-            console.log(`El número mayor es: ${mayor}`);
+            console.log("El número mayor es: " + mayor);
         }
 
         if (validarNumeros(4)) {
-            console.log(`¿El número 4 es par? ${esPar(4)}`);
+            console.log(" ¿El número 4 es par? " + esPar(4));
         }
 
         if (validarNumeros(7)) {
-            console.log(`¿El número 7 es par? ${esPar(7)}`);
+            console.log(" ¿El número 7 es par? " + esPar(7));
         }
     } catch (error) {
         consoleS.error(error.message);
