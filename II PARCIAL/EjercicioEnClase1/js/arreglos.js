@@ -60,3 +60,61 @@ console.log({maximo});
 //ventajas
 //Son ideales para trabajar con transformaciones y manipulaciones complejas
 //Permiten un estilo de programacion funcional mas limpio y facil de usar
+
+//Agregar nuevos elementos
+
+//push() agregar uno o mas elementos al final de un array
+
+let agregar = [1, 2, 3];
+agregar.push(4); //Agrega el numero 4 al final de un array
+console.log({agregar});
+
+let a = ['uno', 'dos', 'tres'];
+a.push('cuatro');
+console.log({a});
+
+//unshift() agrega uno o mas elementos al inicio de un array
+let add = [1, 2, 3];
+add.unshift(0); //agrega el 0 al principio del array
+console.log({add});
+
+// splice() puede agregar o eliminar elementos de cualquier parte dentro del array
+
+let z = [1, 2, 3];
+z.splice(1, 0, 4); //Agregar el numero 4 en la posicion 1, sin eliminar los elementos dentro del mismo
+console.log({z});
+
+//modificar elementos dentro de un array
+
+//Se puede modificar los elementos directamente 
+//atravez de un subindice y modificarlo
+
+let m = [1, 2, 3];
+m[1] = 5;
+console.log(m);
+
+//si deseamos modificar el arreglo de forma inmutable, se puede
+//utilizar el metodo map()
+//para crear un nuevo arreglo con los valores modificados.
+
+let modificar = [1, 2, 3];
+let nuevoModificado = modificar.map(num => num === 2 ? 5 : num); //cambiar el valor 2 por el 5
+console.log(nuevoModificado);
+
+//Eliminar elementos dentro de un array
+
+//pop() elimina el ultimo elemento de un array
+let e = [1, 2, 3];
+e.pop();
+console.log({e});
+
+//shift() elimina el primer elemento de un array
+let num = [1, 2, 3];
+num.shift();
+console.log(num);
+
+//splice() para poder eliminar elementos en cualquier posicion
+
+let  s = [1, 2, 3];
+s.splice(1, 1);
+console.log(s);
