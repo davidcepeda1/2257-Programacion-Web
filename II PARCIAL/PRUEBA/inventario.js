@@ -70,7 +70,7 @@ class Venta {
         const productoMasVendido = this.ventas.reduce((masVendido, venta) => {
             masVendido[venta.nombreProducto] = (masVendido[venta.nombreProducto] || 0) + venta.cantidad;
             return masVendido;
-        });
+        },{});
 
         const masVendido = Object.keys(productoMasVendido).reduce((a, b) => {
             return productoMasVendido[a] > productoMasVendido[b] ? a : b;
